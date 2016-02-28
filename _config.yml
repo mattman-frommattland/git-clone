@@ -1,6 +1,6 @@
-
+#
 # This file contains configuration flags to customize your site
-
+#
 
 # Name of your site (displayed in the header)
 name: Matt
@@ -11,8 +11,9 @@ description: Blog of dcgs. Glaciers are AWESOME!
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJbtEbPxSXPrMV1TOuHbedkymfifsRtWoeiOf8O7ziKQFcybnW
 
+# 
 # Flags below are optional
-
+#
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -27,12 +28,8 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
+# Your disqus shortname, entering this will enable commenting on posts
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -48,9 +45,9 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-
+#
 # !! You don't need to change any of the configuration flags below !!
-
+#
 
 markdown: redcarpet
 highlighter: pygments
@@ -61,6 +58,7 @@ version: v1.1.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
+  sass_dir: _scss 
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
@@ -74,4 +72,3 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
-    - CNAME
